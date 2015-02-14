@@ -1,5 +1,5 @@
-# JavaScript File size converter as js-sizeconverter
-File size converter written in JS
+# JavaScript File Size Converter
+File size converter written in JS named js-sizeconverter
 
 # Installation
 ```html
