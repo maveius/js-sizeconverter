@@ -1,6 +1,6 @@
 function SizeConverter () {
 
-    this.kibi_multiplier = 1024;
+    this.kibiMultiplier = 1024;
     this.sizes = ['B', 'kB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
 
     this.convert = function (value, sourceUnit, destinationUnit) {
@@ -20,13 +20,13 @@ function SizeConverter () {
         if ( sourceIndex > destinationIndex ) {
 
             exponent = sourceIndex - destinationIndex;
-            result = value * Math.pow(this.kibi_multiplier, exponent);
+            result = value * Math.pow(this.kibiMultiplier, exponent);
             return parseFloat(result);
 
         } else if ( sourceIndex < destinationIndex ) {
 
             exponent = destinationIndex - sourceIndex;
-            result = value / Math.pow(this.kibi_multiplier, exponent);
+            result = value / Math.pow(this.kibiMultiplier, exponent);
             return parseFloat(result);
 
         } else {
