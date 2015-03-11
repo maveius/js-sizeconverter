@@ -5,7 +5,7 @@ File size converter written in JS named js-sizeconverter
 ```html
 <script src="http{s}://{path.to.your.website}/{path.to.your.js.directory}/sizeconverter.js"></script>
 ```
-or (in future - does not exists yet! )
+or (in the future - does not exists yet! )
 ```html
 <script src="https://maveius.pl/js/sizeconverter.js"></script>
 ```
